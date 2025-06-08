@@ -15,3 +15,4 @@ This is a Python-based graphical user interface for running ClamAV antivirus sca
 
 ## Author
 Sakib Shadman
+
