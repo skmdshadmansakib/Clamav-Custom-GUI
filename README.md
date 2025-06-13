@@ -1,18 +1,48 @@
-# ClamAV GUI Scanner
+# ClamAV Custom GUI Scanner
 
-This is a Python-based graphical user interface for running ClamAV antivirus scans on Windows.
+A Python-based graphical interface to run ClamAV antivirus scans on Windows. Built for usability, this tool helps you scan files or folders, view real-time RAM usage, and customize scan behavior with advanced options.
 
-## How to Use
+---
 
-1. Make sure `clamscan.exe` is installed on your system.
-2. Install Python packages:
+## ✨ Features
 
+- 📁 **Scan File or Folder** with two easy buttons:
+  - `Select File to Scan`
+  - `Select Folder to Scan`
+- ✅ **Customizable Scan Options** via checkboxes:
+  - `Run freshclam before scan (update database)`
+  - `Recursive scan`
+  - `Scan archives (e.g., zip, rar)`
+  - `Enable heuristic scan`
+  - `Minimum file size to scan (in KB)` — enter `0` for no limit
+- 🧹 **Clear Logs** button to reset output display
+- 📊 **Real-time ClamAV RAM Usage Monitor**
+- 📄 **Big output window** showing live scan results
+- 💾 Option to **save scan result as a .txt file**
 
-3. Run the GUI:
+---
 
+## 🖥️ GUI Layout Preview
 
+### 🖼️ Scan Result Interface
 
+![GUI Result](https://github.com/skmdshadmansakib/Clamav-Custom-GUI/blob/main/Screenshot%202025-06-13%20111525.png?raw=true)
 
-## Author
-Sakib Shadman
+---
 
+### 📄 Saved Scan Output File Example
+
+![Text File Result](https://github.com/skmdshadmansakib/Clamav-Custom-GUI/blob/main/Screenshot%202025-06-13%20111609.png?raw=true)
+
+---
+
+## 🔧 How to Use
+
+1. Make sure `clamscan.exe` and `freshclam.exe` are installed and configured.
+2. Install required Python packages:
+   ```bash
+   pip install -r requirements.txt
+3. python clamav_gui.py
+
+👨‍💻 Author
+SK MD Shadman Sakib
