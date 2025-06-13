@@ -1,6 +1,6 @@
 # ClamAV Custom GUI Scanner
 
-A Python-based graphical interface to run ClamAV antivirus scans on Windows. Built for usability, this tool helps you scan files or folders, view real-time RAM usage, and customize scan behavior with advanced options.
+A Python-based graphical interface to run ClamAV antivirus scans on Windows.
 
 ---
 
