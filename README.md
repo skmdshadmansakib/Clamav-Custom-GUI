@@ -44,5 +44,5 @@ A Python-based graphical interface to run ClamAV antivirus scans on Windows.
    pip install -r requirements.txt
 3. python clamav_gui.py
 
-👨‍💻 Author
-SK MD Shadman Sakib
+## 👨‍💻 Author  
+[SK MD Shadman Sakib](https://github.com/skmdshadmansakib)
